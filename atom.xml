@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Java-jw.github.io</id>
     <title>泛谈 — 谈谈产品的生活和工作</title>
-    <updated>2020-04-16T06:29:37.603Z</updated>
+    <updated>2020-04-16T10:57:54.377Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Java-jw.github.io"/>
     <link rel="self" href="https://Java-jw.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://Java-jw.github.io/images/avatar.png</logo>
     <icon>https://Java-jw.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 泛谈 — 谈谈产品的生活和工作</rights>
+    <entry>
+        <title type="html"><![CDATA[产品的版本号]]></title>
+        <id>https://Java-jw.github.io/post/chan-pin-de-ban-ben-hao</id>
+        <link href="https://Java-jw.github.io/post/chan-pin-de-ban-ben-hao">
+        </link>
+        <updated>2020-04-16T06:29:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>版本号用来记录产品发布的版本序号。就和酒一样，03年的库藏还是05年的库藏？总是有个批次在，批次里能记录其原料、产地……方便人们查其详情。<br>
+微软发布Windows操作系统例如早期的win95、win98、win2000，以年份标示；后续win7、win8、win10则以数字标示；到了win10之后，由于后续不再有win11这种形式的版本，其每次更新则用版本号标示例如1803。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>版本号用来记录产品发布的版本序号。就和酒一样，03年的库藏还是05年的库藏？总是有个批次在，批次里能记录其原料、产地……方便人们查其详情。<br>
+微软发布Windows操作系统例如早期的win95、win98、win2000，以年份标示；后续win7、win8、win10则以数字标示；到了win10之后，由于后续不再有win11这种形式的版本，其每次更新则用版本号标示例如1803。</p>
+<!-- more --> 
+<h3 id="一般的版本号规则">一般的版本号规则</h3>
+<h4 id="三段式">三段式</h4>
+<p>在「关于xx」的页面，我们可以看到产品的当前版本；在应用商店我们也能看到版本的历史记录。一般我们看到是版本号都是三段式的：a.b.c<br>
+<img src="https://Java-jw.github.io/post-images/1587019734377.jpeg" alt=""></p>
+<h4 id="数字增加的原因">数字增加的原因</h4>
+<p>文案的变化、细节颜色的调整等一般调整c。如果一直是这类小修改c是可以一直增加的，即使增加到了10也不进位。例如1.1.9的基础上又做了点文案小优化，就要写成1.1.10而不是1.2.0<br>
+局部功能的更新一般调整b。例如在1.1.0的基础上做了一个局部功能的增加，版本号就变成了1.2.0。需要注意的是，在b增加的同时，c需要清零。例如1.1.2应该变成1.2.0而非1.2.2.<br>
+重大界面和交互变更、重要功能上线、旧版本必须更新的时候就要调整a了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[后台订单状态的设计总结]]></title>
         <id>https://Java-jw.github.io/post/hou-tai-ding-dan-zhuang-tai-de-she-ji-zong-jie</id>
